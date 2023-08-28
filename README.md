@@ -5,7 +5,7 @@ const Hello = () => {
     const dev =  {
         name: "Jhonatan Azevedo",
         role: "Developer",
-        work: "Tributo Justo",
+        ImWork: "Tributo Justo",
         academicEducation: "Análise e desenvolvimento de sistema",
         skills: [
             "Javascript", "Vue.JS", "React.JS", "React Native", "Vuex", "Node JS", 
