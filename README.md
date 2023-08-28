@@ -8,7 +8,7 @@ const Hello = () => {
         work: "Tributo Justo",
         academicEducation: "Análise e desenvolvimento de sistema",
         skills: [
-            "Javascript", "Vue.JS", "React.JS", "React Native", "Vuex", "Node JS", 
+            "Javascript", "Vue JS", "React JS", "React Native", "Vuex", "Node JS", 
             "Typescript", "Express", "Bootstrap", "Tailwind", "Figma", "HTML5", "CSS3"
         ],
     }
