@@ -22,7 +22,7 @@ const Hello = () => {
 ## Contact
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/jazevedodev/" alt="Linkedin Jhonatan Azevedo" target="_blank">
+  <a href="https://www.linkedin.com/in/dev-azevedo/" alt="Linkedin Jhonatan Azevedo" target="_blank">
   <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
   <a href="mailto:dev.azevedo@outlook.com" alt="Email Jhonatan Azevedo">
