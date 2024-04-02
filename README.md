@@ -1,5 +1,5 @@
 ```js
-import Developer from "@Jhonatan-Azevedo";
+import Developer from "@dev-azevedo";
 
 const Hello = () => {
     const dev =  {
@@ -9,7 +9,8 @@ const Hello = () => {
         academicEducation: "Análise e desenvolvimento de sistema",
         skills: [
             "Javascript", "Vue JS", "React JS", "React Native", "Vuex", "Node JS", 
-            "Typescript", "Express", "Bootstrap", "Tailwind", "Figma", "HTML5", "CSS3"
+            "Typescript", "Express", "C#", ".Net", "EntityFramewrok", 
+            "Bootstrap", "Tailwind", "Figma", "HTML5", "CSS3",
         ],
     }
 
