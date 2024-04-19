@@ -31,5 +31,5 @@ public class DeveloperController : Controller
   <a href="mailto:dev.azevedo@outlook.com" alt="Email Jhonatan Azevedo">
   <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /></a>
 
-<a href="[mailto:dev.azevedo@outlook.com](https://drive.google.com/file/d/1BEsUXEV6YfbhXd8x4H6Y48YJoFAdEuja/view)" alt="Curriculo Jhonatan Azevedo">📄 Curriculum ✌🏼</a>
+<a href="https://drive.google.com/file/d/1BEsUXEV6YfbhXd8x4H6Y48YJoFAdEuja/view" alt="Curriculo Jhonatan Azevedo">📄 Curriculum ✌🏼</a>
 </p>
