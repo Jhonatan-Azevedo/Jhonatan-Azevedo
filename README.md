@@ -1,23 +1,25 @@
-```js
-import Developer from "@dev-azevedo";
+```c#
+public class DeveloperController : Controller
+{
+    [HttpGet("/developer")]
+    public IActionResult GetDeveloperInfo()
+    {
+        Developer dev = new Developer(
+            name: "Jhonatan Azevedo",
+            role: "Developer",
+            work: "Tributo Justo",
+            academicEducation: "Análise e desenvolvimento de sistema",
+            skills: new List<string>
+            {
+                "C#", "ASP.NET", "Entity Framework", ".Net 7", "Node JS", "TypeScript", "JavaScript", 
+                "React JS", "React Native", "Vue JS", "Vuex", "HTML5", "CSS3", "Bootstrap", "Tailwind", "Figma",
+                "SqlServer", "PostgresSql", "MySql"
+            }
+        );
 
-const Hello = () => {
-    const dev =  {
-        name: "Jhonatan Azevedo",
-        role: "Developer",
-        work: "Tributo Justo",
-        academicEducation: "Análise e desenvolvimento de sistema",
-        skills: [
-            "Javascript", "Vue JS", "React JS", "React Native", "Vuex", "Node JS", 
-            "Typescript", "Express", "C#", ".Net", "EntityFramewrok", 
-            "Bootstrap", "Tailwind", "Figma", "HTML5", "CSS3",
-        ],
+        return Ok(dev);
     }
-
-    return Developer(dev);
 }
-
-🚀 Hello();
 ```
 
 ## Contact
