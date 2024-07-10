@@ -15,7 +15,7 @@ public class DeveloperController : ControllerBase
             academicEducation: "Análise e desenvolvimento de sistema",
             skills: new List<string>
             {
-                "C#", ".Net", "ASP.NET", "Entity Framework", "IdentityFramework", "Node JS", "TypeScript", "JavaScript", 
+                "C#", ".Net", "ASP.NET", "Entity Framework", "Identity Framework", "Node JS", "TypeScript", "JavaScript", 
                 "React JS", "React Native", "Vue JS", "Vuex", "HTML5", "CSS3", "Bootstrap", "Tailwind", "Figma",
                 "SqlServer", "PostgresSql", "MySql", "SqLite", "MongoDb"
             }
