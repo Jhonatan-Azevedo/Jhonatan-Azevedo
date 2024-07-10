@@ -1,7 +1,7 @@
 ```c#
-public class DeveloperController : Controller
+public class DeveloperController : BaseController
 {
-    [HttpGet("/developer")]
+    [HttpGet]
     public IActionResult GetDeveloperInfo()
     {
         Developer dev = new Developer(
@@ -11,9 +11,9 @@ public class DeveloperController : Controller
             academicEducation: "Análise e desenvolvimento de sistema",
             skills: new List<string>
             {
-                "C#", "ASP.NET", "Entity Framework", ".Net 7", "Node JS", "TypeScript", "JavaScript", 
+                "C#", ".Net", "ASP.NET", "Entity Framework", "IdentityFramework", "Node JS", "TypeScript", "JavaScript", 
                 "React JS", "React Native", "Vue JS", "Vuex", "HTML5", "CSS3", "Bootstrap", "Tailwind", "Figma",
-                "SqlServer", "PostgresSql", "MySql"
+                "SqlServer", "PostgresSql", "MySql", "SqLite", "MongoDb"
             }
         );
 
