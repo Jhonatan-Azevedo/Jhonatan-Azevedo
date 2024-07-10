@@ -1,5 +1,9 @@
 ```c#
-public class DeveloperController : BaseController
+namespace DevAzevedo.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class DeveloperController : ControllerBase
 {
     [HttpGet]
     public IActionResult GetDeveloperInfo()
