@@ -10,14 +10,21 @@ public class DeveloperController : ControllerBase
     {
         Developer dev = new Developer(
             name: "Jhonatan Azevedo",
-            role: "Developer",
+            role: "FullStack Developer",
             work: "Tributo Justo",
-            academicEducation: "Análise e desenvolvimento de sistema",
+            academicEducation: new List<string> 
+            { 
+                "Análise e Desenvolvimento de Sistemas", 
+                "Ciência de Dados e Inteligência Artificial" 
+            },
             skills: new List<string>
             {
-                "C#", ".Net", "ASP.NET", "Entity Framework", "Identity Framework", "Node JS", "TypeScript", "JavaScript", 
-                "React JS", "React Native", "Vue JS", "Vuex", "HTML5", "CSS3", "Bootstrap", "Tailwind", "Figma",
-                "SqlServer", "PostgresSql", "MySql", "SqLite", "MongoDb"
+                "C#", ".Net", "ASP.NET", "Entity Framework", "Identity Framework", 
+                "NodeJs", "ExpressJs", "NestJs", "TypeScript", "JavaScript", "TypeORM", "Prisma",
+                "Python", "Django", "FastAPI", "Flask", "SQLAlchemy", "Pandas", 
+                "ReactJs", "React Native", "VueJs", "Vuex", "HTML5", "CSS3", "Bootstrap", "Tailwind",
+                "SqlServer", "PostgresSql", "MySql", "SqLite", "MongoDb",
+                "Docker", "Docker-compose", "GIT/GitHub", "RabbitMQ", "Figma"
             }
         );
 
@@ -35,5 +42,6 @@ public class DeveloperController : ControllerBase
   <a href="mailto:dev.azevedo@outlook.com" alt="Email Jhonatan Azevedo" target="_blank">
   <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /></a>
 
- <a href="https://drive.google.com/file/d/1BEsUXEV6YfbhXd8x4H6Y48YJoFAdEuja/view" alt="Curriculo Jhonatan Azevedo" target="_blank">📄 Curriculum ✌🏼</a>
+ <a href="https://drive.google.com/file/d/1NHg3RAuSjHA8FPb1SKxSu9xxhbeDL7Z5/view" alt="Curriculo Jhonatan Azevedo" target="_blank">📄 Curriculum ✌🏼</a>
+
 </p>
